@@ -1,0 +1,91 @@
+/*
+=======================================================================
+	Categories Rules
+=======================================================================
+*/
+.category {
+	width:256px;
+	float:left;
+	margin-bottom:20px;
+}
+
+.arrowlistmenu{
+	width: 256px;
+	float:left;
+}
+
+.arrowlistmenu .menuheader{
+	color: #666;
+	background-image:url(../images/calender_arrow1.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	cursor:pointer;
+	width:241px;
+	height:18px;
+	padding:7px 0px 0px 15px;
+	margin-left:1px;
+	border-bottom:#666 dotted 1px;
+	display:inline-block;
+}
+
+.arrowlistmenu .openheader{
+	
+}
+
+.arrowlistmenu ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+.arrowlistmenu ul li ul li a{
+	color: #666;
+	cursor:pointer;
+	height:18px;
+	padding:7px 0px 0px 15px;
+	margin-left:20px;
+	display:inline-block;
+	background-image:url(../images/left_arow.gif);
+	background-repeat:no-repeat;
+	background-position:4px 10px;
+}
+.arrowlistmenu ul li a{
+	color: #666;
+}
+
+.arrowlistmenu ul li .opensubheader{
+	background-image:url(../images/left_arow.gif);
+	background-repeat:no-repeat;
+	background-position:4px 10px;
+}
+
+.arrowlistmenu ul li .closedsubheader{
+	background-image:url(../images/left_arow.gif);
+	background-repeat:no-repeat;
+	background-position:4px 10px;
+}
+
+.arrowlistmenu ul li a{
+	color:#666;
+	background-image:url(../images/left_arow.gif);
+	background-repeat:no-repeat;
+	background-position:4px 10px;
+	cursor:pointer;
+	width:231px;
+	height:18px;
+	padding:7px 0px 0px 15px;
+	margin-left:10px;
+	display:inline-block;
+}
+
+.arrowlistmenu ul li a:visited{
+	color: #666;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+
+}
+
+.arrowlistmenu ul li a.subexpandable:hover{ /*hover state CSS for sub menu header*/
+	
+}
